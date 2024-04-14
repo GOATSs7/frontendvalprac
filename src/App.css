@@ -1,0 +1,125 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* custom csss */
+* {
+  background-color: aquamarine;
+}
+
+.input-box input {
+  margin: 10px;
+  height: 40px;
+  width: 80px;
+  border: 1px solid;
+  border-radius: 8px;
+  /* padding-left: 10px; */
+  text-align: center;
+}
+
+.timer-button {
+  margin: 20px;
+  width: 100px;
+}
+.pause-button {
+  background-color: red;
+}
+
+.resume-button {
+  background-color: green;
+}
+
+.reset-button {
+  background-color: blue;
+}
+.start-button {
+  background-color: green;
+}
+
+.timer-button {
+  /* Common styles for all buttons */
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+/* for timer */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  justify-content: center;
+}
+
+.timer-box {
+  display: flex;
+  align-items: center;
+}
+
+.timer-box > div {
+  background-color: #333; /* Default background color for timer sections */
+  color: white; /* Text color */
+  padding: 5px 10px; /* Padding around each section */
+  border-radius: 5px; /* Rounded corners */
+}
+
+.timer-box > span {
+  color: #333; /* Color for the separator (colon) */
+  font-size: 20px; /* Font size for the separator */
+  margin: 0 5px; /* Margin around the separator */
+}
+
+/* Custom colors for each section */
+.timer-box > div:nth-child(1) {
+  background-color: #ff6347; /* Red for hours */
+}
+
+.timer-box > div:nth-child(3) {
+  background-color: #32cd32; /* Green for minutes */
+}
+
+.timer-box > div:nth-child(5) {
+  background-color: #4169e1; /* Blue for seconds */
+}
