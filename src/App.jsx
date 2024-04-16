@@ -1,12 +1,13 @@
 // import from "react";
 
 import "./App.css";
-import MainCountdown from "./componets/Countdown/MainCountdown";
+import MainCount from "./componets/CountDownPrac/MainCount";
+// import MainCountdown from "./componets/Countdown/MainCountdown";
 
 function App() {
   return (
     <>
-      <MainCountdown />
+      <MainCount />
     </>
   );
 }
