@@ -1,0 +1,60 @@
+/* FaqItem.css
+
+.que-container {
+  color: white;
+
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.que {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 12px;
+  padding-left: 20px;
+  cursor: pointer;
+}
+.quecont {
+  padding-left: 20px;
+}
+
+.arrow {
+  transform: rotate(90deg);
+  transition: transform 0.3s ease;
+}
+
+.answer {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 500;
+} */
+
+.faq-container {
+  /* height: 150px; */
+  border: 1px solid white;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.faq-block {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 10px;
+  cursor: pointer;
+}
+.que {
+  font-size: 25px;
+  font-weight: 700;
+}
+.answer {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.arrow {
+  transform: rotate(90deg);
+}

@@ -1,0 +1,34 @@
+.loan-calc {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 450px;
+  width: 550px;
+}
+.inputs {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding-left: 80px;
+  font-size: 18px;
+  width: 350px;
+  font-weight: 500;
+}
+
+.input {
+  height: 30px;
+  border-radius: 10px;
+  padding-left: 15px;
+  font-size: 15px;
+}
+
+label {
+  margin-top: 10px;
+}
+.output {
+  margin-top: 25px;
+  font-size: 22px;
+  font-weight: 500;
+}
